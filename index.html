@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../wines/img/favicon.png" rel="sortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="scroll" href="#rolunk">Rólunk</a></li>
+                <li><a class="scroll" href="#szolgald">Szolgáld fel</a></li>
+                <li><a class="scroll" href="#technologia">Technologia</a></li>
+                <li><a class="scroll" href="#ajanlat">Ajánlataink</a></li>
+                <li><a href="https://bortarsasag.hu" target="_blank
+                    ">Blog</a></li>
+                <li><a class="scroll" href="#kapcsolat">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Jól </br>megválasztott </br> borok</h1>
+            <img src="./img/wine.jpg" alt="bor" title="borok" />
+        </section>
+
+
+        <section id="rolunk">
+            <h2>Rólunk</h2>
+            <p>Pincészeti üzemünk az Alföldi borvidék Kunsági területén található,
+                ami tipikusan homoki szőlőtermesztési körzet.</p>
+            <p>Beszállítóinkkal sok éves kapcsolattal rendelkezünk,
+                célunk egyfajta integrátori szerepet betölteni a térségben.</p>
+        </section>
+        <section id="paralax">
+            <h2>15 % kedvezmeny <br />minden termekunkre!</h2>
+        </section>
+        <section id="szolgald">
+            <h2>Igy Szolgald fel</h2>
+            <p><a href="#rolunk" class="btn">Rólunk bövebben</a></p>
+
+            <video controls>
+                <source src="video/wine-video.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section id="technologia">
+            <h2>Technologia</h2>
+            <p>
+                Egy nap alatt ezer mázsát meghaladó szőlő feldolgozására vagyunk képesek,
+                ehhez megfelelő gépi sajtó, zúzó-bogyózó kapacitással rendelkezünk.</p>
+            <p>Pincészetünkben csak rozsdamentes fémtartályokkal dolgozunk.
+                30.000 hl bor tárolására vagyunk képesek.
+                Két palackozó gépsorunkkal napi 200-400 hl bort is palackozni tudunk.</p>
+            <p>Saját laborral rendelkezünk, mely segítségével a beérkező mustokat minősítjük,
+                erjedésüket figyelemmel kísérjük, elvégezzük a borok állagának megóvásához szükséges méréseket.</p>
+        </section>
+        <section id="ajanlat">
+            <h2>Ajanlataink </h2>
+            <article>
+                <img src="img/bor1.jpg" alt="bor1" />
+                <h3>Valami Bor</h3>
+                <div class="text-box">
+                    <p>Lorem ipsum,ducimus dicta dolor sit amet consectetur adipisicing elit. Eligendi minus natus,
+                        soluta ea
+                        alias dicta nesciunt maxime quaerat sint pariatur, ratione quasi itaque vero sed corporis beatae
+                        assumenda deserunt numquam!</p>
+                </div>
+                <p class="ar">1190 ft</p>
+                <p><a href="#rolunk" class="btn">Kosarba teszem</a></p>
+            </article>
+            <article>
+                <img src="./img/bor2.jpg" alt="bor2" />
+                <h3>Valami Bor1</h3>
+                <div class="text-box">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis ullam consectetur ratione
+                        possimus veniam ducimus dicta odit. Rem dolorem quas fuga. Eius eligendi doloremque
+                        necessitatibus
+                        dicta veritatis enim quibusdam vel!</p>
+                </div>
+                <p class="ar"> 1800 ft</p>
+                <p><a href="#rolunk" class="btn">Kosarba teszem</a></p>
+            </article>
+            <article>
+                <img src="./img/bor3.jpg" alt="bor2" />
+                <h3>Valami Bor1</h3>
+                <div class="text-box">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis ullam consectetur ratione
+                        possimus veniam ducimus dicta odit. Rem dolorem quas fuga. Eius eligendi doloremque
+                        necessitatibus
+                        dicta veritatis enim quibusdam vel!</p>
+                </div>
+                <p class="ar"> 1800 ft</p>
+                <p><a href="#rolunk" class="btn">Kosarba teszem</a></p>
+        </section>
+
+        <section id="kapcsolat">
+            <h2>Kerdese van?</h2>
+            <form method="POST">
+                <div>
+                    <input type="text" placeholder="Az ön neve" required>
+                </div>
+                <div>
+                    <input type="email" placeholder="email" required>
+                </div>
+                <div>
+                    <select name="tárgy" id="" required>
+                        <option value="">Uzenet targya</option>
+                        <option value="2">Kerdes</option>
+                        <option value="3">Eszrevetel</option>
+                        <option value="4">Egyeb</option>
+
+                    </select>
+                </div>
+                <div>
+                    <textarea name="uzenet" placeholder="UZENET" required rows="8"></textarea>
+                </div>
+                <div class="g-recaptcha" data-sitekey="6Lcc4_cZAAAAAJjMkimf0TQ-i3sC0ox2fBZhfIdQ"></div>
+                <div>
+                    <button class="btn">Kuldes</button>
+                </div>
+            </form>
+            <iframe id="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41455.91223856097!2d21.38566339276637!3d48.11328669148663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4738adb817b63799%3A0xa751a1ec29e5468f!2sTokaj%20Museum!5e0!3m2!1sen!2shu!4v1607014604303!5m2!1sen!2shu"
+                allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p><a href="#" class="btn">Technológia bövebben</a></p>
+        <p>Minden jog fenntartva! - &copy; Vallalkozas neve -2020</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"
+        integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ=="
+        crossorigin="anonymous"></script>
+    <script src="./js/selPlaceholder.js"></script>
+    <script src="./js/menu.js"></script>
+    <Script src="./js/scrollControl.js"></Script>
+
+</body>
+
+</html>
